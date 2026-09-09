@@ -1,0 +1,12 @@
+
+        <html>
+        <head><title>AskUrDB — Result</title></head>
+        <body style="font-family:sans-serif;padding:2rem">
+            <h2>Show me all movies released this year</h2>
+            <p><b>SQL:</b> <code>SELECT title, release_year FROM film WHERE YEAR(release_year) = YEAR(CURDATE()) ORDER BY release_year DESC</code></p>
+            <p><i>Retrieves all movies released in the current year, ordered by release year in descending order.</i></p>
+            <hr>
+            <p>No data returned.</p>
+        </body>
+        </html>
+        
